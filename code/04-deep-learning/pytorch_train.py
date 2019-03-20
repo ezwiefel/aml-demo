@@ -188,10 +188,10 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--data-dir', type=str, default=None,
                         help='The path to the dataset')
-    parser.add_argument('--num_epochs', type=int, default=25,
+    parser.add_argument('--num-epochs', type=int, default=25,
                         help='number of epochs to train')
-    parser.add_argument('--output_dir', type=str, help='output directory')
-    parser.add_argument('--learning_rate', type=float,
+    parser.add_argument('--output-dir', type=str, help='output directory')
+    parser.add_argument('--learning-rate', type=float,
                         default=0.001, help='learning rate')
     parser.add_argument('--momentum', type=float, default=0.9, help='momentum')
     args = parser.parse_args()
