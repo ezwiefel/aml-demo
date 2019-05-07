@@ -131,3 +131,4 @@ code/02-aml_compute/train.py
 code/01-in_notebook/score.py
 code/03-auto_ml/automl_scripts
 code/04-deep-learning/pytorch-hymenoptera/pytorch_train.py
+.azureml
